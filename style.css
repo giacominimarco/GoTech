@@ -1,11 +1,10 @@
-/* *{
+*{
     top: 0px;
     left: 0px;
-    width: 1920px;
-    height: 3875px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: 0% 0% no-repeat padding-box;
     opacity: 1;
-} */
+    margin-top: 5px;
+}
 
 ul {
     list-style-type: none;
@@ -26,18 +25,19 @@ li a {
     text-decoration: none;
     top: 0px;
     left: 2px;
-    background: transparent url('img/topo.png') 0% 0% no-repeat padding-box;
+    border-radius: 5px;
 }
 
 li a:hover {
-    background-color: #dddddd;
+    background-color: rgba(134, 109, 215, 0.76);
 }
 
 .active {
-    background-color: #4CAF50;
-    margin-bottom: 100px;
+    background-color: rgb(133, 109, 215);
+    margin-bottom: 2px;
 }
 
-.menu {
-    
+.header {
+    width: 800px;
+    margin: auto;
 }
