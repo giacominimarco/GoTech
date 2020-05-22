@@ -117,7 +117,7 @@ button:hover {
   
 .search input {
     margin-left: 10%;
-    padding: 0.9rem 1.5rem;
+    padding: 0.9rem 1.7rem;
     border: 1px solid #6462d7dc;
     float: left;
     border-radius: 5px; 
@@ -237,12 +237,95 @@ button:hover {
     margin-bottom: 7%;
 }
 
-.parte3 {
-    margin-top: 10%;
-    display: block;
-    background-color: #C9E6FF;
-    top: 2237px;
-    width: 135%;
-    height: 600px;
-    
+.grid-container {
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgba(180, 221, 255, 0.158);
+    padding: 10px;
+    box-shadow: 1px 1px 30px 3px rgba(33, 149, 243, 0.39);
+}
+
+.grid-container > div {
+    text-align: left;
+    padding: 20px 0;
+    font-size: 1rem;
+}
+
+.grid-container input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+
+    border: 1px solid #55555562;
+    border-radius: 4px;
+}
+
+.grid-container select {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #55555562;
+    border-radius: 4px;
+}
+
+.grid-container button {
+    margin-top: 20px;
+}
+
+.item5 {
+    padding-bottom: 0px;
+}
+
+.item2 {
+    margin-left: 2px;
+}
+
+.item3, .item4, .item5 {
+    grid-column: 1 / span 2;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin: 5%;
+    text-align: center;
+}
+
+.grid-container-footer {
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgba(180, 221, 255, 0.158);
+    padding: 10px;
+    box-shadow: 1px 1px 30px 3px rgba(33, 149, 243, 0.39);
+}
+
+.grid-container-footer > div {
+    text-align: left;
+    padding: 20px 0;
+    font-size: 1rem;
+}
+
+.grid-container-footer input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+
+    border: 1px solid #55555562;
+    border-radius: 4px;
+}
+
+.grid-container-footer select {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #55555562;
+    border-radius: 4px;
 }
