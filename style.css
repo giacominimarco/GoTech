@@ -194,20 +194,29 @@ button:hover {
 }
 
 .img4 {
-    padding-bottom: 0px;
     position: relative; 
     margin-top: 10%;
     padding: 0 0 50%;    
     width:100%; 
+    padding-bottom: 0px;
 }
 
 .img5 {
     margin-top: -50%;
 }
 
-
 .t3 {
     font-size: 12px; 
     margin-top: -2%; 
     margin-bottom: 7%;
+}
+
+.parte3 {
+    margin-top: 10%;
+    display: block;
+    background-color: #C9E6FF;
+    top: 2237px;
+    width: 135%;
+    height: 600px;
+    
 }
