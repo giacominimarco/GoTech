@@ -63,6 +63,14 @@ ul li img {
 .active {
     background: linear-gradient(to right, #6462d7dc 0%, #ff8fe1d2 100%);
     color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: rgba(134, 109, 215, 0.829);
 }
 
 .header {
@@ -73,7 +81,6 @@ ul li img {
     width: 100%;
     max-width: 980px;
     margin-top: 1%;
-    /* margin-left: 250px; */
 }
 
 .search {
@@ -84,7 +91,7 @@ ul li img {
   
 .search input {
     margin-left: 10%;
-    padding: 14px 30px;
+    padding: 14px 25px;
     border: 1px solid #6462d7dc;
     float: left;
     border-radius: 5px; 
@@ -112,6 +119,7 @@ ul li img {
     border: 1.1px solid #6462d7dc;
 }
 
+
 .t1 {
     font-weight: 400; 
     margin-top: -5%;
@@ -121,6 +129,9 @@ ul li img {
     font-size: 12px; 
     margin-top: -2%; 
     margin-bottom: 7%;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
 }
 
 .img1 {
@@ -142,27 +153,61 @@ ul li img {
 }
 
 .parte2 {
-    margin-top: 15%;
+    margin-top: 10%;
     flex-flow: row wrap;
-    
     max-width: 800px;
     border-radius: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
 }
 
 .parte2 h1 {
     font-weight: 400;
     font-size: 40px;
+    margin: 0 0 0 0;
+
 }
 
-.parte2 p {
 
+.parte2 p {
+    margin-top: 20px;
+    padding-right: 45px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
 }
 
 .parte2 img {
+    width: 100%;
     float:right;
-    max-width: 100%;
 }
 
+.parte2 button {
+    margin-top: 10px;
+    width: 145px;
+    height: 48px
+}
+
+.h1 {
+    padding-top: 50px;
+}
+
+.img4 {
+    padding-bottom: 0px;
+    position: relative; 
+    margin-top: 10%;
+    padding: 0 0 50%;    
+    width:100%; 
+}
+
+.img5 {
+    margin-top: -50%;
+}
+
+
+.t3 {
+    font-size: 12px; 
+    margin-top: -2%; 
+    margin-bottom: 7%;
+}
