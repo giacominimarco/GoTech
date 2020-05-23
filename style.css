@@ -350,7 +350,6 @@ button:hover {
     text-align: left;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background-color: wheat;
 }
 
 .grid-container-footer div {
@@ -371,4 +370,21 @@ button:hover {
 
 .iconFormat {
     font-size: 25px;
+}
+
+.footer4 i{
+    margin: 5%;
+}
+.img_footer {
+    margin-top: -10%;
+    width: 1500px;
+}
+
+.img_footer1 {
+    padding-left: 200px;
+}
+
+.img_footer2 {
+    padding-left: 350px;
+    
 }
