@@ -375,8 +375,28 @@ button:hover {
 .footer4 i{
     margin: 5%;
 }
+
+#icon1, #icon2, #icon3, #icon4 {
+    color: white;
+    border-radius: 50%;
+    width: 55px;
+}
+
+#icon1 {
+    background: linear-gradient(to top right, #993399 0%, #8a2be2 100%);
+}
+#icon2 {
+    background: linear-gradient(to top right, #009900 0%, #66ff99 100%);
+}
+#icon3 {
+    background: linear-gradient(to top right, #cc0066 0%, #ff3399 100%);
+}
+#icon4 {
+    background: linear-gradient(to top right, #cc6600 0%, #ffcc00 100%);
+}
+
 .img_footer {
-    margin-top: -10%;
+    margin-top: -7%;
     width: 1500px;
 }
 
