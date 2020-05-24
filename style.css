@@ -384,6 +384,7 @@ button:hover {
 }
 
 #icon1, #icon2, #icon3, #icon4 {
+    margin: 2px;
     color: white;
     border-radius: 50%;
     width: 55px;
