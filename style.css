@@ -156,7 +156,7 @@ button:hover {
 .h1 {
     padding-top: 5rem;
 }
-.t3 {
+.texto {
     font-size: 1.3rem; 
     margin-top: 5%; 
     margin-bottom: 7%;
@@ -181,12 +181,12 @@ button:hover {
     text-align: center;
     margin-bottom: 10px;
 }
-.fundoazul {
+.blue_background {
     width: 100%;
     margin-top: 10%;
     padding-left: 100px;
     padding-right: 100px;
-    background-image: url("img/fundoazul.svg");
+    background-image: url("img/blue_background.svg");
 }
 .grid-container {
     margin-right: 30px;
@@ -240,7 +240,7 @@ button:hover {
     grid-column: 1 / span 2;
 }
 
-.imgs {
+.form_imgs {
     align-items: center;
     justify-content: space-between;
     height: 200%;
@@ -268,7 +268,7 @@ button:hover {
     justify-content: space-between;
 }
 
-.footer {
+.logo_footer {
     padding: 6%;
     text-align: center;
 }
@@ -315,20 +315,20 @@ button:hover {
     background: linear-gradient(to top right, #cc6600 0%, #ffcc00 100%);
 }
 
-.img_footer {
+.footer_imgs {
     margin-top: -7%;
     width: 1500px;
 }
-.img_footer1 {
+.footer_imgs1 {
     padding-left: 200px;
 }
-.img_footer2 {
+.footer_imgs2 {
     padding-left: 350px;
     
 }
 
 @media screen and (max-width: 500px){
-    .img_parte1 .img2 {
+    .parte1_imgs .img2 {
         width: 100%;
         padding: 3%;
     }
@@ -349,7 +349,7 @@ button:hover {
         max-width: 50%;
     }
 
-    .t3 {
+    .texto {
         font-size: 12px; 
         margin-top: 5%; 
         margin-bottom: 7%;
@@ -367,7 +367,7 @@ button:hover {
         display: none;
     }
 
-    .fundoazul {
+    .blue_background {
         max-width: 100%;
         padding-left: 0px;
         padding-right: 0px;
@@ -387,7 +387,7 @@ button:hover {
         grid-column: 1 / span 2;
     }
 
-    .imgs {
+    .form_imgs {
         display: none;
     }
 
@@ -398,7 +398,7 @@ button:hover {
         max-width: auto;
     }
 
-    .img_footer {
+    .footer_imgs {
         display: none;
     }
     .icon1, .icon2, .icon3, .icon4 {
@@ -416,10 +416,10 @@ button:hover {
 }
 
 @media screen and (max-width: 950px) {  
-    .header, .imgs, .img_footer {
+    .header, .form_imgs, .footer_imgs {
         display: none;
     }
-    .fundoazul {
+    .blue_background {
         width: 100%;
         padding: 0;
         padding-bottom: 20px;
