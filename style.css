@@ -126,7 +126,6 @@ button:hover {
 .img3    {
     margin-top: -20%;
     max-width: 100%;
-    
 }
 
 .parte2 {
@@ -327,6 +326,19 @@ button:hover {
     
 }
 
+@media screen and (max-width: 499px){
+    .iconFormat {
+        font-size: 20px;
+    }
+    .icon1, .icon2, .icon3, .icon4 {
+        padding-right: 30px;
+        margin: 2px;
+        color: white;
+        border-radius: 50%;
+        width: 55px;
+    }
+}
+
 @media screen and (max-width: 500px){
     .header {
         display: block;
@@ -353,7 +365,7 @@ button:hover {
         padding: 3%;
     }
     .t2 {
-        width: 300px;
+        text-align: center;
     }
     .texto {
         font-size: 12px; 
@@ -394,7 +406,7 @@ button:hover {
         margin: 2px;
         color: white;
         border-radius: 50%;
-        width: 45px;
+        width: 55px;
     }
 }
 
