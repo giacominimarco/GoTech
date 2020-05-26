@@ -72,7 +72,7 @@ button:hover {
     font-size: 16px;
 }
 .search input {
-    padding: 0.9rem 1.9rem;
+    padding: 0.9rem 1.5rem;
     border: 1px solid #6462d7dc;
     float: left;
     border-radius: 5px; 
@@ -82,7 +82,7 @@ button:hover {
     top: 1rem;
 } 
 .search .fa-search {
-    left: 12.5rem;
+    left: 170px;
 }
 
 .parte1 {
@@ -328,27 +328,33 @@ button:hover {
 }
 
 @media screen and (max-width: 500px){
+    .header {
+        display: block;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+        background-color: #f1f1f1;
+        font-size: 15px;
+    }
+    .header, img {
+        padding: 1%;
+        float: none;
+    }
+    .header a {
+        margin-right: 0px;
+        float: none;
+        position: relative;
+        width: 100%;
+    }   
+
     .parte1_imgs .img2 {
         width: 100%;
         padding: 3%;
     }
-
     .t2 {
         width: 300px;
     }
-
-    .parte2 {
-        text-align: center;
-        margin-top: 10%;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .parte2 img {
-        margin-top: 10%;
-        max-width: 50%;
-    }
-
     .texto {
         font-size: 12px; 
         margin-top: 5%; 
@@ -362,44 +368,27 @@ button:hover {
         display: grid;
         grid-template-columns: 1fr;
     }
-
-    .img4 {
-        display: none;
-    }
-
     .blue_background {
         max-width: 100%;
         padding-left: 0px;
         padding-right: 0px;
         height: 780px;
     }
-
     .grid-container {
         padding: 10px 10px 10px 10px;
         margin: 4%;
     }
-
     .item1 {
         margin-right: 0;
     }
-
     .item1, .item2, .item3, .item4, .item5 {
         grid-column: 1 / span 2;
     }
-
-    .form_imgs {
-        display: none;
-    }
-
     .grid-container-footer {
         margin: 5px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: auto;
-    }
-
-    .footer_imgs {
-        display: none;
     }
     .icon1, .icon2, .icon3, .icon4 {
         margin: 2px;
@@ -409,14 +398,16 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 964px) { 
     html {
-        font-size: 65%;
+        text-align: center;
     }
-}
-
-@media screen and (max-width: 950px) {  
-    .header, .form_imgs, .footer_imgs {
+    
+    .header img {
+        float: unset;
+        margin-right: 0;
+    }
+    .active, .search, .img4, .form_imgs, .footer_imgs {
         display: none;
     }
     .blue_background {
@@ -433,5 +424,15 @@ button:hover {
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: auto;
+    }
+    .parte2 {
+        text-align: center;
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .parte2 img {
+        margin-top: 10%;
+        
     }
 }
